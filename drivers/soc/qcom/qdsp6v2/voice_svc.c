@@ -1,4 +1,4 @@
-/* Copyright (c) 2014-2019, The Linux Foundation. All rights reserved.
+/*Copyright (c) 2014-2019, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -597,7 +597,7 @@ done:
 	return ret;
 }
 
-static int voice_svc_dummy_reg()
+static int voice_svc_dummy_reg(void)
 {
 	uint32_t src_port = APR_MAX_PORTS - 1;
 
